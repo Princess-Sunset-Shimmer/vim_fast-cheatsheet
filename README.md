@@ -18,5 +18,12 @@
         :                      /* command mode */
         v                      /* selection mode */
 ## cursor control:
+        h, j, k, l             /* ⬅️, ⬆️, ⬇️, ➡️ that every vim user knows */
+        w                      /* forword */
+        b                      /* backword */
+        $                      /* end */
+        0                      /* home */
+        shift + g              /* tail of file */
+        g + g                  /* mane of file */
 ## contents edit:
 ## search and replace:
