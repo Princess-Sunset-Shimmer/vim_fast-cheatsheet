@@ -48,4 +48,9 @@
         o                      /* insert below current line */
         shift + o              /* insert above current line */
 ```
+```c
+        x                      /* cut current char */
+        3x                     /* cut three chars */
+        
+```
 ## search and replace:
