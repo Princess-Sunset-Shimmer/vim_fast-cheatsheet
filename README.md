@@ -5,12 +5,14 @@
 [contents edit](#contents-edit "goto contents-edit")\
 [search and replace](#search-and-replace "goto search-and-replace")
 
-## open save and quit:asm
+## open save and quit:
+```asm
         vim file.s             /* open file.s */
         :w                     /* save file */
         :q                     /* quit */
         :q!                    /* quit without save */
         :wq                    /* save and quit */
+```
 ## mode switch:
         esc                    /* view mode */
         i                      /* inset mode */
