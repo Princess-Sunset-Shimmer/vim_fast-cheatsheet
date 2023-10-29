@@ -85,3 +85,10 @@
         n                      /* highlight next */
         shift + n              /* hilghight previous */
 ```
+```c
+        :%s/a/b/g              /* replace a, b --all */
+        :%s/a/b/gc             /* replace a, b --all --interactive-confirm */
+
+        :26,37s/a/b/g          /* replace a, b --start=26 --end=37 */
+        :21,$s/a/b/g           /* replace a, b --start=21 --end=end */
+```
