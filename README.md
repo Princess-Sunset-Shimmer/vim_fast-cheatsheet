@@ -8,6 +8,7 @@
 ## open save and quit:
 ```c
         vim file.s             /* open file.s */
+
         :w                     /* save file */
         :q                     /* quit */
         :q!                    /* quit without save */
@@ -45,27 +46,35 @@
 ```c
         a                      /* insert after current char */
         shift + a              /* insert at end */
+
         o                      /* insert below current line */
         shift + o              /* insert above current line */
 ```
 ```c
         x                      /* cut current char or selecte chars */
         3x                     /* cut three chars, 4x cut for chars and so on */
+
         dd                     /* cut current line */
         4dd                    /* cut 4 lines, 5dd cut 5 lines and so on */
+
         dw                     /* cut forword */
         db                     /* cut backword */
+
         d$                     /* cut to end */
         d0                     /* cut to home */
 ```
 ```c
         y                      /* copy selected chars */
+
         yy                     /* copy current line */
         2yy                    /* copy 2 lines */
+
         yw                     /* copy forword */
         yb                     /* copy backword */
+
         y$                     /* copy to end */
         y0                     /* copy to home */
+
         p                      /* paste */
 ```
 ## search and replace:
