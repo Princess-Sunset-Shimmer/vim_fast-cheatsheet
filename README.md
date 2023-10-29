@@ -1,9 +1,9 @@
 # vim_fast-cheatsheet
 [open save and quit](#open-save-and-quit "goto open-save-and-quit")
-[mode switch](#mode-switch-2)
-[cursor control](#cursor-control-2)
-[contents edit](#contents-edit-2)
-[search and replace](#search-and-replace-2)
+[mode switch](#mode-switch "goto mode-switch")
+[cursor control](#cursor-control "goto cursor-control")
+[contents edit](#contents-edit "goto contents-edit")
+[search and replace](#search-and-replace "goto search-and-replace")
 
 ## open save and quit:
 ## mode switch:
