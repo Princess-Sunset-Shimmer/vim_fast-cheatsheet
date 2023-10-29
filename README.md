@@ -22,7 +22,7 @@
         v                      /* selection mode */
 ```
 ## cursor control:
-```
+```c
         h, j, k, l             /* ⬅️, ⬆️, ⬇️, ➡️ that every vim user knows */
 ```
 ```
