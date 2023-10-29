@@ -12,6 +12,11 @@
         :q!                    /* quit without save */
         :wq                    /* save and quit */
 ## mode switch:
+        esc                    /* view mode */
+        i                      /* inset mode */
+        /                      /* search mode */
+        :                      /* command mode */
+        v                      /* selection mode */
 ## cursor control:
 ## contents edit:
 ## search and replace:
