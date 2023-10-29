@@ -8,7 +8,8 @@
 ## open save and quit:
 ```c
         vim file.s             /* open file.s */
-
+```
+```c
         :w                     /* save file */
         :q                     /* quit */
         :wq                    /* save and quit */
