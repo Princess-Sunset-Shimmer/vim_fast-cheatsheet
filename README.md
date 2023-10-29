@@ -48,35 +48,45 @@
 ```c
         a                      /* insert after current char */
         shift + a              /* insert at end */
-
+```
+```c
         o                      /* insert below current line */
         shift + o              /* insert above current line */
 ```
+- - - -
 ```c
         x                      /* cut current char or selecte chars */
         3x                     /* cut three chars, 4x cut for chars and so on */
-
+```
+```c
         dd                     /* cut current line */
         4dd                    /* cut 4 lines, 5dd cut 5 lines and so on */
-
+```
+```c
         dw                     /* cut forword */
         db                     /* cut backword */
-
+```
+```c
         d$                     /* cut to end */
         d0                     /* cut to home */
 ```
+- - - -
 ```c
         y                      /* copy selected chars */
-
+```
+```c
         yy                     /* copy current line */
         2yy                    /* copy 2 lines */
-
+```
+```c
         yw                     /* copy forword */
         yb                     /* copy backword */
-
+```
+```c
         y$                     /* copy to end */
         y0                     /* copy to home */
-
+```
+```c
         p                      /* paste */
 ```
 ## search and replace:
