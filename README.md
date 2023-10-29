@@ -6,8 +6,11 @@
 [search and replace](#search-and-replace "goto search-and-replace")
 
 ## open save and quit:
-        vim file.s       /* open file.s */
-        :w               /* save file */
+        vim file.s             /* open file.s */
+        :w                     /* save file */
+        :q                     /* quit */
+        :q!                    /* quit without save */
+        :wq                    /* save and quit */
 ## mode switch:
 ## cursor control:
 ## contents edit:
