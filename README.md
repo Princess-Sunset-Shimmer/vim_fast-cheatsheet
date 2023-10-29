@@ -6,6 +6,7 @@
 [search and replace](#search-and-replace "goto search-and-replace")
 
 ## open save and quit:
+        `vim file.s`
 ## mode switch:
 ## cursor control:
 ## contents edit:
