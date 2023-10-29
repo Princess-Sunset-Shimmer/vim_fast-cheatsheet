@@ -14,7 +14,7 @@
         :wq                    /* save and quit */
 ```
 ## mode switch:
-```
+```c
         esc                    /* view mode */
         i                      /* inset mode */
         /                      /* search mode */
@@ -25,11 +25,11 @@
 ```c
         h, j, k, l             /* ⬅️, ⬆️, ⬇️, ➡️ that every vim user knows */
 ```
-```
+```c
         w                      /* forword */
         b                      /* backword */
 ```
-```
+```c
         $                      /* end */
         0                      /* home */
 ```
