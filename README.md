@@ -79,3 +79,9 @@
         p                      /* paste */
 ```
 ## search and replace:
+```c
+        /mlp-fim               /* search mlp-fim */
+
+        n                      /* highlight next */
+        shift + n              /* hilghight previous */
+```
