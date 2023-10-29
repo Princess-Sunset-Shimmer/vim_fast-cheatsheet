@@ -14,11 +14,13 @@
         :wq                    /* save and quit */
 ```
 ## mode switch:
+```
         esc                    /* view mode */
         i                      /* inset mode */
         /                      /* search mode */
         :                      /* command mode */
         v                      /* selection mode */
+```
 ## cursor control:
 ```
         h, j, k, l             /* ⬅️, ⬆️, ⬇️, ➡️ that every vim user knows */
