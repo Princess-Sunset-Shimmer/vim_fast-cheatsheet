@@ -6,7 +6,7 @@
 [search and replace](#search-and-replace "goto search-and-replace")
 
 ## open save and quit:
-```asm
+```c
         vim file.s             /* open file.s */
         :w                     /* save file */
         :q                     /* quit */
