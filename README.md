@@ -38,4 +38,14 @@
         g + g                  /* mane of file */
 ```
 ## contents edit:
+```c
+        u                      /* undo */
+        ctrl + r               /* redo */
+```
+```c
+        a                      /* insert after current char */
+        shift + a              /* insert at end */
+        o                      /* insert below current line */
+        shift + o              /* insert above current line */
+```
 ## search and replace:
