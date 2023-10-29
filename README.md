@@ -49,9 +49,13 @@
         shift + o              /* insert above current line */
 ```
 ```c
-        x                      /* cut current char */
-        3x                     /* cut three chars, 4x cut for chars */
+        x                      /* cut current char or selecte chars */
+        3x                     /* cut three chars, 4x cut for chars and so on */
         dw                     /* cut forword */
         db                     /* cut backword */
+        d$                     /* cut to end */
+        d0                     /* cut to home */
+        dd                     /* cut current line */
+        4dd                    /* cut 4 lines, 5dd cut 5 lines and so on */
 ```
 ## search and replace:
