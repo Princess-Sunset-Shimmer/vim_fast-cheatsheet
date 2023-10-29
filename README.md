@@ -50,7 +50,8 @@
 ```
 ```c
         x                      /* cut current char */
-        3x                     /* cut three chars */
-        
+        3x                     /* cut three chars, 4x cut for chars */
+        dw                     /* cut forword */
+        db                     /* cut backword */
 ```
 ## search and replace:
