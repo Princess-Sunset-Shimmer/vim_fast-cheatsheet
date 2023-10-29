@@ -44,6 +44,7 @@
         u                      /* undo */
         ctrl + r               /* redo */
 ```
+- - - -
 ```c
         a                      /* insert after current char */
         shift + a              /* insert at end */
