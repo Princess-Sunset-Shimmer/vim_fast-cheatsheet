@@ -5,7 +5,7 @@
 [contents edit](#contents-edit "goto contents-edit")\
 [search and replace](#search-and-replace "goto search-and-replace")
 
-## open save and quit:
+## open save and quit:asm
         vim file.s             /* open file.s */
         :w                     /* save file */
         :q                     /* quit */
