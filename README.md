@@ -11,8 +11,8 @@
 
         :w                     /* save file */
         :q                     /* quit */
-        :q!                    /* quit without save */
         :wq                    /* save and quit */
+        :q!                    /* quit without save */
 ```
 ## mode switch:
 ```c
