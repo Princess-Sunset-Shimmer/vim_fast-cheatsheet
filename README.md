@@ -33,7 +33,7 @@
         $                      /* end */
         0                      /* home */
 ```
-```
+```c
         shift + g              /* tail of file */
         g + g                  /* mane of file */
 ```
