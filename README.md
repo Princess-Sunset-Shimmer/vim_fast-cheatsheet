@@ -109,3 +109,7 @@
         :26,37s/a/b/g          /* replace a, b --start=26 --end=37 */
         :21,$s/a/b/g           /* replace a, b --start=21 --end=end */
 ```
+# multi file editing
+# vim configuration
+- - - -
+Licence: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
