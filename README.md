@@ -10,7 +10,7 @@
 - [search and replace](#search-and-replace "goto search-and-replace")
 ## open save and quit:
 ```c
-        vim file.s             /* open file.s */
+        vim /directory/file    /* open file.s */
 ```
 ```c
         :w                     /* save file */
@@ -40,7 +40,7 @@
 ```
 ```c
         shift + g              /* tail of file */
-        g + g                  /* mane of file */
+        gg                     /* mane of file */
 ```
 ## contents edit:
 ```c
@@ -109,7 +109,14 @@
         :26,37s/a/b/g          /* replace a, b --start=26 --end=37 */
         :21,$s/a/b/g           /* replace a, b --start=21 --end=end */
 ```
-# multi file editing
+# multi files editing
+```c
+        vim /directory/file0 /directory/file1 /directory/file2 ... /* open multi files */
+```
+```c
+        :n                     /* switch to next file */
+        :N                     /* switch to previous file */
+```
 # vim configuration
 - - - -
 Licence: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
