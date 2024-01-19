@@ -111,12 +111,18 @@
 ```
 # multi files editing
 ```c
-        :e /directory/file                                         /* open another file and quit current file */
         vim /directory/file0 /directory/file1 /directory/file2 ... /* open multi files */
 ```
 ```c
         :n                     /* switch to next file */
         :N                     /* switch to previous file */
+```
+```c
+        :e /directory/file     /* open another file */
+```
+```c
+        :buffers               /* show all opened files in buffers */
+        :buffer 1              /* goto file of buffer 1 */
 ```
 # vim configuration
 - - - -
