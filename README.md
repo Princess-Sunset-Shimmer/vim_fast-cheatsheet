@@ -35,10 +35,11 @@
         b                      /* backword */
 ```
 ```c
-        $                      /* end */
-        0                      /* home */
+        $                      /* tail of line */
+        0                      /* mane of line */
 ```
 ```c
+        :255                   /* the line 255 of file */
         shift + g              /* tail of file */
         gg                     /* mane of file */
 ```
