@@ -126,5 +126,7 @@
         :buffer 1              /* goto file of buffer 1 */
 ```
 # vim configuration
+system wide `/etc/vimrc`\
+user specific `~/.vimrc`
 - - - -
 Licence: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
