@@ -129,4 +129,4 @@
 system wide `/etc/vimrc`\
 user specific `~/.vimrc`
 - - - -
-Licence: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
+Licence: [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
