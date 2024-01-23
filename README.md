@@ -140,5 +140,25 @@
 # vim configuration
 system wide `/etc/vimrc`\
 user specific `~/.vimrc`
+```c
+        :set number             /* show line number */
+        :set nowrap             /* do not wrap text */
+        :set cursorline         /* show cursor line */
+        :set cursorcolumn       /* show cursor column */
+```
+```c
+        :set expandtab          /* use space instead of tab */
+        :set tabstop=4          /* now tab width is 4 spaces */
+        :set shiftwidth=4       /* now shift width is 4 spaces */
+```
+```c
+        :set incsearch          /* incremental search */
+        :set hlsearch           /* hilight search */
+```
+```c
+        :set scrolloff=0x10     /* start to scroll after 0x10 lines */
+        :set history=0xFF       /* remenber 0xFF histories */
+        :set foldmethod=indent  /* fold by code indent. other folding method: manual, syntax, marker, foldable block, expr */
+```
 - - - -
 Licence: [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
