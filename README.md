@@ -46,7 +46,7 @@
 ```
 ## folding:
 ```c
-        zf                     /* create a fold from a selection manually */
+        zf                     /* manually create a fold from a selection */
 ```
 ```c
         za                     /* fold or open automatically */
