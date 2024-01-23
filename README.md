@@ -88,7 +88,7 @@
 ```
 - - - -
 ```c
-        y                      /* copy selected chars */
+        y                      /* copy selection */
 ```
 ```c
         yy                     /* copy current line */
