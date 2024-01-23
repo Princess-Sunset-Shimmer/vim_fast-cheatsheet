@@ -134,8 +134,8 @@
         :e /directory/file     /* open another file */
 ```
 ```c
-        :buffers               /* show all opened files in buffers */
-        :buffer 1              /* goto file of buffer 1 */
+        :buffers               /* show all file buffers */
+        :buffer 1              /* goto file buffer 1 */
 ```
 # vim configuration
 system wide `/etc/vimrc`\
