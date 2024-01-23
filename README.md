@@ -44,7 +44,7 @@
         shift + g              /* goto tail of file */
         gg                     /* goto mane of file */
 ```
-## folding
+## folding:
 ```c
         zf                     /* create a fold from a selection manually */
 ```
