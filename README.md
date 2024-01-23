@@ -145,6 +145,7 @@ user specific `~/.vimrc`
         :set nowrap             /* do not wrap text */
         :set cursorline         /* show cursor line */
         :set cursorcolumn       /* show cursor column */
+        :set foldmethod=indent  /* fold by code indent. other folding method: manual, syntax, marker, foldable block, expr */
 ```
 ```c
         :set expandtab          /* use space instead of tab */
@@ -154,11 +155,6 @@ user specific `~/.vimrc`
 ```c
         :set incsearch          /* incremental search */
         :set hlsearch           /* hilight search */
-```
-```c
-        :set scrolloff=0x10     /* start to scroll after 0x10 lines */
-        :set history=0xFF       /* remenber 0xFF histories */
-        :set foldmethod=indent  /* fold by code indent. other folding method: manual, syntax, marker, foldable block, expr */
 ```
 - - - -
 Licence: [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
