@@ -148,7 +148,7 @@ user specific `~/.vimrc`
         :set foldmethod=indent  /* fold by code indent. other folding method: manual, syntax, marker, foldable block, expr */
 ```
 ```c
-        :set expandtab          /* use space instead of tab */
+        :set expandtab          /* expand tab to spaces */
         :set tabstop=4          /* now tab width is 4 spaces */
         :set shiftwidth=4       /* now shift width is 4 spaces */
 ```
