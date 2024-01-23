@@ -48,6 +48,13 @@
 ```c
         zf                     /* create a fold from a selection manually */
 ```
+```c
+        za                     /* fold or open automatically */
+        zo                     /* open fold */
+        zc                     /* close fold */
+        zR                     /* open all folds */
+        zM                     /* close all folds */
+```
 ## contents edit:
 ```c
         u                      /* undo */
