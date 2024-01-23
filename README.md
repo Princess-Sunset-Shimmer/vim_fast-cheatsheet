@@ -6,7 +6,7 @@
 - [open save and quit](#open-save-and-quit "goto open-save-and-quit")
 - [mode switch](#mode-switch "goto mode-switch")
 - [cursor control](#cursor-control "goto cursor-control")
-- [ folding ](#folding "goto folding")
+- [folding](#folding "goto folding")
 - [contents edit](#contents-edit "goto contents-edit")
 - [search and replace](#search-and-replace "goto search-and-replace")
 ## open save and quit:
@@ -40,9 +40,13 @@
         0                      /* mane of line */
 ```
 ```c
-        :255                   /* the line 255 of file */
-        shift + g              /* tail of file */
-        gg                     /* mane of file */
+        :255                   /* goto line 255 of file */
+        shift + g              /* goto tail of file */
+        gg                     /* goto mane of file */
+```
+## folding
+```c
+        zf                     /* create a fold from a selection manually */
 ```
 ## contents edit:
 ```c
