@@ -145,7 +145,7 @@ user specific `~/.vimrc`
         :set nowrap             /* do not wrap text */
         :set cursorline         /* show cursor line */
         :set cursorcolumn       /* show cursor column */
-        :set foldmethod=indent  /* fold by code indent. other folding method: manual, syntax, marker, foldable block, expr */
+        :set foldmethod=indent  /* fold by code indent. other methods: manual, syntax, marker, foldable block, expr */
 ```
 ```c
         :set expandtab          /* expand tab to spaces */
