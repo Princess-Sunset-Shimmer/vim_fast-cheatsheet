@@ -35,10 +35,8 @@
 `W` forword\
 `B` backword
 - - - -
-```c
 `$` tail of line\
 `0` mane of line
-```
 - - - -
 ```c
         :255                   /* goto line 255 of file */
