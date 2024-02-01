@@ -33,8 +33,8 @@
 - - - -
 - - - -
 `W` forword\
-`B` backword
-- - - -
+`B` backword\
+\
 `$` tail of line\
 `0` mane of line
 - - - -
@@ -64,25 +64,21 @@
 `A` insert after current char\
 `Shift` + `A` insert at end
 - - - -
-        o                      /* insert below current line\
-        shift + o              /* insert above current line */
+`O` insert below current line\
+`Shift` + `O` insert above current line
 - - - -
-```c
-        x                      /* cut current char or selecte chars */
-        3x                     /* cut three chars, 4x cut for chars and so on */
-```
-```c
-        dd                     /* cut current line */
-        4dd                    /* cut 4 lines, 5dd cut 5 lines and so on */
-```
-```c
-        dw                     /* cut forword */
-        db                     /* cut backword */
-```
-```c
-        d$                     /* cut to end */
-        d0                     /* cut to home */
-```
+- - - -
+`X` cut current char or selected chars\
+`3` + `X` cut three chars; `4` + `X` cut four chars and so on\
+\
+`D` + `D` cut current line\
+`4` then `D` + `D` cut 4 lines; `5` then `D` + `D` cut 5 lines and so on\
+\
+`D` + `W` cut forword\
+`D` + `B` cut backword\
+\
+`D` + `$` cut to end\
+`D` + `0` cut to home
 - - - -
 ```c
         y                      /* copy selection */
