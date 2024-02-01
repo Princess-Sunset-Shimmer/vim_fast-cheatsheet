@@ -102,10 +102,9 @@
 ```c
         /mlp-fim               /* search mlp-fim */
 ```
-```c
-        n                      /* highlight next */
-        shift + n              /* hilghight previous */
-```
+- - - -
+`N` highlight next\
+`Shift` + `N` hilghight previous
 - - - -
 ```c
         :%s/a/b/g              /* replace a, b --all */
