@@ -125,8 +125,8 @@
         :buffer 1              /* goto file buffer 1 */
 ```
 # vim configuration
-system wide `/etc/vimrc`\
-user specific `~/.vimrc`
+system wide config file: `/etc/vimrc`\
+user specific config file: `~/.vimrc`
 ```c
         :set number             /* show line number */
         :set nowrap             /* do not wrap text */
