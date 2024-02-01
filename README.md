@@ -80,24 +80,19 @@
 `D` + `$` cut to end\
 `D` + `0` cut to home
 - - - -
-```c
-        y                      /* copy selection */
-```
-```c
-        yy                     /* copy current line */
-        2yy                    /* copy 2 lines */
-```
-```c
-        yw                     /* copy forword */
-        yb                     /* copy backword */
-```
-```c
-        y$                     /* copy to end */
-        y0                     /* copy to home */
-```
-```c
-        p                      /* paste */
-```
+`Y` copy selection\
+\
+`Y` + `Y` copy current line\
+`2` then `Y` + `Y` copy 2 lines\
+\
+`Y` +`W` copy forword\
+`Y` + `B` copy backword\
+\
+`Y` + `$` copy to end\
+`Y` + `0` copy to home\
+\
+`P` paste
+- - - -
 ## search and replace:
 ```c
         /mlp-fim               /* search mlp-fim */
