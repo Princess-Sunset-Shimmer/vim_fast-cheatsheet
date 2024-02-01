@@ -21,30 +21,30 @@
 ```
 ## mode switch:
 - - - -
-        `Esc` view mode\
-        `I` inset mode\
-        `/` search mode\
-        `Shift` + `;:`command mode\
-        `V`selection mode
+`Esc` view mode\
+`I` inset mode\
+`/` search mode\
+`Shift` + `;:`command mode\
+`V`selection mode
 - - - -
 ## cursor control:
 - - - -
 `H` `J` `K` `L` are ⬅️ ⬆️ ⬇️ ➡️ that every vim user knows
 - - - -
 - - - -
-        `W` forword\
-        `B` backword
+`W` forword\
+`B` backword
 - - - -
 ```c
-        `Shift` + `4$` tail of line\
-        `0` mane of line
+Shift` + `4$` tail of line\
+`0` mane of line
 ```
 - - - -
 ```c
         :255                   /* goto line 255 of file */
 ```
-        `Shift` + `G`  goto tail of file\
-        g + g goto mane of file
+`Shift` + `G`  goto tail of file\
+`G` + `G` goto mane of file
 - - - -
 ## folding:
 ```c
