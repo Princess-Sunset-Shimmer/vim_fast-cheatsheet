@@ -56,19 +56,16 @@
 `Z` then `Shift` + `M` close all folds
 - - - -
 ## contents edit:
-```c
-        u                      /* undo */
-        ctrl + r               /* redo */
-```
 - - - -
-```c
-        a                      /* insert after current char */
-        shift + a              /* insert at end */
-```
-```c
-        o                      /* insert below current line */
+`U` undo\
+`Ctrl` + `R` redo
+- - - -
+- - - -
+`A` insert after current char\
+`Shift` + `A` insert at end
+- - - -
+        o                      /* insert below current line\
         shift + o              /* insert above current line */
-```
 - - - -
 ```c
         x                      /* cut current char or selecte chars */
