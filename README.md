@@ -41,7 +41,6 @@
 ```c
         :255                   /* goto line 255 of file */
 ```
-- - - -
 `Shift` + `G`  goto tail of file\
 `G` + `G` goto mane of file
 - - - -
