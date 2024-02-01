@@ -29,7 +29,9 @@
 - - - -
 ## cursor control:
 - - - -
+
         `H` `J` `K` `L` are ⬅️ ⬆️ ⬇️ ➡️ that every vim user knows
+
 - - - -
 - - - -
         `W` forword\
