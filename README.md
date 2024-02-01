@@ -43,20 +43,21 @@
 ```c
         :255                   /* goto line 255 of file */
 ```
+- - - -
 `Shift` + `G`  goto tail of file\
 `G` + `G` goto mane of file
 - - - -
 ## folding:
-```c
-        zf                     /* manually create a fold from a selection */
-```
-```c
-        za                     /* fold or open automatically */
-        zo                     /* open fold */
-        zc                     /* close fold */
-        zR                     /* open all folds */
-        zM                     /* close all folds */
-```
+- - - -
+`Z` + `F` manually create a fold from a selection
+- - - -
+- - - -
+`Z` + `A` fold or open automatically\
+`Z` + `O` open fold\
+`Z` + `C` close fold\
+`Z` then `Shift` + `R` open all folds\
+`Z` then `Shift` + `M` close all folds
+- - - -
 ## contents edit:
 ```c
         u                      /* undo */
