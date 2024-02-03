@@ -81,6 +81,7 @@
 `D` + `$` cut to end\
 `D` + `0` cut to home
 - - - -
+- - - -
 `Y` copy selection\
 \
 `Y` + `Y` copy current line\
