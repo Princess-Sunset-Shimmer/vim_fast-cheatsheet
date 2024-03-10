@@ -1,6 +1,6 @@
 # vim fast-cheatsheet
 - [basic editing](#basic-editing "goto basic-editing")
-- [multi file editing](#multi-file-editing "goto multi-file-editing")
+- [multi files](#multi-files "goto multi-files")
 - [vim configuration](#vim-configuration "goto vim-configuration")
 # basic editing
 - [open save and quit](#open-save-and-quit "goto open-save-and-quit")
@@ -96,6 +96,7 @@
 `P` paste
 - - - -
 ## search and replace:
+`Ctrl` + `N` in insert mode, search and auto complete current word
 ```c
         /mlp-fim               /* search mlp-fim */
 ```
@@ -111,7 +112,7 @@
         :26,37s/a/b/g          /* replace a, b --start=26 --end=37 */
         :21,$s/a/b/g           /* replace a, b --start=21 --end=end */
 ```
-# multi files editing
+# multi files
 ```c
         vim /directory/file0 /directory/file1 /directory/file2 ... /* open multi files */
 ```
