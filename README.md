@@ -96,7 +96,7 @@
 `P` paste
 - - - -
 ## search and replace:
-`Ctrl` + `N` in insert mode, search and auto complete current word
+`Ctrl` + `N` xor `Ctrl` + `P` in insert mode, search and auto complete current word
 ```c
         /mlp-fim               /* search mlp-fim */
 ```
