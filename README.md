@@ -79,7 +79,11 @@
 `D` + `B` cut backword\
 \
 `D` + `$` cut to end\
-`D` + `0` cut to home
+`D` + `0` cut to home\
+```c
+        :7,19d                /* cut contents from line 7 to 19 */
+        :7,$d                 /* cut dontents from line 7 to bottom */
+```
 - - - -
 - - - -
 `Y` copy selection\
