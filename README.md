@@ -109,11 +109,15 @@
 `Shift` + `N` hilghight previous
 - - - -
 ```c
+        :%s#a#b#g
         :%s/a/b/g              /* replace a, b --all */
+        :%s#a#b#gc
         :%s/a/b/gc             /* replace a, b --all --interactive-confirm */
 ```
 ```c
+        :26,37s#a#b#g
         :26,37s/a/b/g          /* replace a, b --start=26 --end=37 */
+        :21,$s#a#b#g
         :21,$s/a/b/g           /* replace a, b --start=21 --end=end */
 ```
 # multi files
