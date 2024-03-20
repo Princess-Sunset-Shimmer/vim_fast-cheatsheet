@@ -96,7 +96,10 @@
 \
 `Y` + `$` copy to end\
 `Y` + `0` copy to home\
-\
+```c
+        :3,9y                 /* copy contents from line 3 to 9 */
+        :3,$y                 /* copy contents from line 3 to bottom */
+```
 `P` paste
 - - - -
 ## search and replace:
