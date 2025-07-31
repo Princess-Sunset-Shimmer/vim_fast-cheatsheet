@@ -20,14 +20,14 @@
         :q!                    /* quit without save */
 ```
 ## mode switch:
-- - - -
+
 `Esc` normal mode\
 `I` inset mode\
 `/` search mode\
 `:` command mode\
 `V` visual mode\
 `Shift` + `R` replace mode
-- - - -
+
 ## cursor control:
 - - - -
 `H` `J` `K` `L` are ⬅️ ⬆️ ⬇️ ➡️ that every vim user knows
