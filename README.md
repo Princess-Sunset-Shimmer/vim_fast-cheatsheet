@@ -32,7 +32,7 @@
 `W` forword\
 `B` backword\
 \
-`$` tail of line\
+`Shift` + `$` tail of line\
 `0` mane of line
 ```c
         :255                   /* goto line 255 of file */
@@ -137,8 +137,13 @@
 `G` + `H` hide or show hidden .files and ./directories\
 `S` toggle sort by name, size, time and exten
 \
-`J` and `K` up and down; `Enter` to open file\
-
+`-` go previous directory\
+`J` and `K` navigate up and down; `Enter` to open file\
+\
+`Shift` + `R` rename a file\
+`Shift` + `D` delete a file\
+`D` create a directory\
+`Shift` + `%` create a file
 - - - -
 # vim configuration
 system wide config file: `/etc/vimrc`\
