@@ -20,43 +20,32 @@
         :q!                    /* quit without save */
 ```
 ## mode switch:
-
 `Esc` normal mode\
 `I` inset mode\
 `/` search mode\
 `:` command mode\
 `V` visual mode\
 `Shift` + `R` replace mode
-
 ## cursor control:
-- - - -
 `H` `J` `K` `L` are ⬅️ ⬆️ ⬇️ ➡️ that every vim user knows
-- - - -
-- - - -
+\
 `W` forword\
 `B` backword\
 \
 `$` tail of line\
 `0` mane of line
-- - - -
-- - - -
 ```c
         :255                   /* goto line 255 of file */
 ```
 `Shift` + `G`  goto tail of file\
 `G` + `G` goto mane of file
-- - - -
 ## folding:
-- - - -
-`Z` + `F` manually create a fold from a selection
-- - - -
-- - - -
+`Z` + `F` manually create a fold from a selection\
 `Z` + `A` fold or open automatically\
 `Z` + `O` open fold\
 `Z` + `C` close fold\
 `Z` then `Shift` + `R` open all folds\
 `Z` then `Shift` + `M` close all folds
-- - - -
 ## contents edit:
 - - - -
 `U` undo\
