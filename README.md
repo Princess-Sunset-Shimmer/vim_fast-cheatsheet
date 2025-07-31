@@ -25,7 +25,7 @@
 `I` inset mode\
 `/` search mode\
 `:` command mode\
-`V` selection mode\
+`V` visual mode\
 `Shift` + `R` replace mode
 - - - -
 ## cursor control:
