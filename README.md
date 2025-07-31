@@ -21,11 +21,12 @@
 ```
 ## mode switch:
 - - - -
-`Esc` view mode\
+`Esc` normal mode\
 `I` inset mode\
 `/` search mode\
-`:`command mode\
-`V`selection mode
+`:` command mode\
+`V` selection mode\
+`Shift` + `R` replace mode
 - - - -
 ## cursor control:
 - - - -
