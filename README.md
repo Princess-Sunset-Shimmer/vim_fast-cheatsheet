@@ -14,10 +14,6 @@
         vim /directory/file    /* open file.s */
 ```
 ```c
-        :Ex                     /* explore current directory */
-        :Ex /directory          /* explore specified directory */
-```
-```c
         :w                     /* save file */
         :q                     /* quit */
         :wq                    /* save and quit */
@@ -115,6 +111,7 @@
         :21,$s/a/b/g           /* replace a, b --start=21 --end=end */
 ```
 # multi files
+## buffers:
 ```c
         vim /directory/file0 /directory/file1 /directory/file2 ... /* open multi files */
 ```
@@ -128,6 +125,15 @@
 ```c
         :buffers               /* show all file buffers */
         :buffer 1              /* goto file buffer 1 */
+```
+## netrw:
+```c
+        vim .                   /* open vim and explore current directory */
+        vim . /directory         /* open vim and explore specified directory */
+        :Ex                     /* explore current directory */
+        :e .
+        :Ex /directory          /* explore specified directory */
+        :e /directory
 ```
 # vim configuration
 system wide config file: `/etc/vimrc`\
