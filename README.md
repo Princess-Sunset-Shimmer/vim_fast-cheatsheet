@@ -90,7 +90,7 @@
 `P` paste\
 `3` + `P` paste 3 times
 ## search and replace:
-`Ctrl` + `N` xor `Ctrl` + `P` in insert mode, search and auto complete current word
+`Ctrl` + `N` or `Ctrl` + `P` in insert mode, search and auto complete current word
 ```c
         /mlp-fim               /* search mlp-fim */
 ```
@@ -133,6 +133,13 @@
         :Ex /directory          /* explore specified directory */
         :e /directory
 ```
+- - - -
+`G` + `H` hide or show hidden .files and ./directories\
+`S` toggle sort by name, size, time and exten
+\
+`J` and `K` up and down; `Enter` to open file\
+
+- - - -
 # vim configuration
 system wide config file: `/etc/vimrc`\
 user specific config file: `~/.vimrc`
