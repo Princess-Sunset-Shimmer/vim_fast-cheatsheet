@@ -128,9 +128,8 @@
 ```
 ## netrw:
 ```c
-        vim .                   /* open vim and explore current directory */
+        vim /directory          /* open vim and explore specified directory */
         :Ex                     /* explore current directory */
-        :e .
         :Ex /directory          /* explore specified directory */
         :e /directory
 ```
