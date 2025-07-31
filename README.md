@@ -14,6 +14,10 @@
         vim /directory/file    /* open file.s */
 ```
 ```c
+        :Ex                     /* explore current directory */
+        :Ex /directory          /* explore specified directory */
+```
+```c
         :w                     /* save file */
         :q                     /* quit */
         :wq                    /* save and quit */
@@ -66,7 +70,7 @@
 `D` + `B` cut backword\
 \
 `D` + `$` cut to end\
-`D` + `0` cut to home\
+`D` + `0` cut to home
 ```c
         :7,19d                /* cut contents from line 7 to 19 */
         :7,$d                 /* cut dontents from line 7 to bottom */
@@ -81,13 +85,13 @@
 `Y` + `B` copy backword\
 \
 `Y` + `$` copy to end\
-`Y` + `0` copy to home\
+`Y` + `0` copy to home
 ```c
         :3,9y                 /* copy contents from line 3 to 9 */
         :3,$y                 /* copy contents from line 3 to bottom */
         :%y                   /* copy all */
 ```
-`P` paste
+`P` paste\
 `3` + `P` paste 3 times
 ## search and replace:
 `Ctrl` + `N` xor `Ctrl` + `P` in insert mode, search and auto complete current word
