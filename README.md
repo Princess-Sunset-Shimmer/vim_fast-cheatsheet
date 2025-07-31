@@ -27,7 +27,7 @@
 `V` visual mode\
 `Shift` + `R` replace mode
 ## cursor control:
-`H` `J` `K` `L` are ⬅️ ⬆️ ⬇️ ➡️ that every vim user knows
+`H` `J` `K` `L` are ⬅️ ⬆️ ⬇️ ➡️ that every vim user knows\
 \
 `W` forword\
 `B` backword\
@@ -47,18 +47,15 @@
 `Z` then `Shift` + `R` open all folds\
 `Z` then `Shift` + `M` close all folds
 ## contents edit:
-- - - -
 `U` undo\
-`Ctrl` + `R` redo
-- - - -
-- - - -
+`Ctrl` + `R` redo\
+\
 `A` insert after current char\
 `Shift` + `A` insert at end\
 \
 `O` insert below current line\
 `Shift` + `O` insert above current line
-- - - -
-- - - -
+\
 `X` cut current char or selected chars\
 `3` + `X` cut three chars; `4` + `X` cut four chars and so on\
 \
@@ -73,9 +70,8 @@
 ```c
         :7,19d                /* cut contents from line 7 to 19 */
         :7,$d                 /* cut dontents from line 7 to bottom */
+        :%d                   /* cut all */
 ```
-- - - -
-- - - -
 `Y` copy selection\
 \
 `Y` + `Y` copy current line\
@@ -89,9 +85,10 @@
 ```c
         :3,9y                 /* copy contents from line 3 to 9 */
         :3,$y                 /* copy contents from line 3 to bottom */
+        :%y                   /* copy all */
 ```
 `P` paste
-- - - -
+`3` + `P` paste 3 times
 ## search and replace:
 `Ctrl` + `N` xor `Ctrl` + `P` in insert mode, search and auto complete current word
 ```c
