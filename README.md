@@ -157,7 +157,8 @@ user specific config file: `~/.vimrc`
 ```
 ```c
         :set expandtab          /* expand tab to spaces */
-        :set tabstop=4          /* now tab width is 4 spaces */
+        :set tabstop=4          /* now tab width looks like 4 spaces */
+        :set softtabstop=4      /* now tab width acts like 4 spaces */
         :set shiftwidth=4       /* now shift width is 4 spaces */
 ```
 ```c
