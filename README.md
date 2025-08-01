@@ -135,7 +135,7 @@
 ```
 - - - -
 `G` + `H` hide or show hidden .files and ./directories\
-`S` toggle sort by name, size, time and exten
+`S` toggle sort by name, size, time and exten\
 \
 `-` go previous directory\
 `J` and `K` navigate up and down; `Enter` to open file\
