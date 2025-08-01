@@ -160,6 +160,8 @@ user specific config file: `~/.vimrc`
         :set tabstop=4          /* now tab width looks like 4 spaces */
         :set softtabstop=4      /* now tab width acts like 4 spaces */
         :set shiftwidth=4       /* now shift width is 4 spaces */
+        :set smartindent
+        :set autoindent
 ```
 ```c
         :set incsearch          /* incremental search */
