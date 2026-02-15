@@ -138,7 +138,6 @@ example: you can use this trick to read long output from a command without save 
         vim /directory          /* open vim and explore specified directory */
         :Ex                     /* explore current directory */
         :Ex /directory          /* explore specified directory */
-        :e /directory
 ```
 - - - -
 `G` + `H` hide or show hidden .files and ./directories\
