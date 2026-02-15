@@ -61,7 +61,7 @@
 example: you can use this trick to read long output from a command without save it
 ```c
         vim
-        :read !COMMAND_NAME --help
+        :read !SHELL_COMMAND --help
         :q!
 ```
 `X` cut current char or selected chars\
