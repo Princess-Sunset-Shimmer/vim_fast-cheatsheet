@@ -56,6 +56,13 @@
 `O` insert below current line\
 `Shift` + `O` insert above current line
 \
+`:read !SHELL_COMMAND` run shell command and insert with its output into current file\
+example: you can use this trick to read long output from a command without save it
+```c
+        vim
+        :read !reflector --help
+        :q!
+```
 `X` cut current char or selected chars\
 `3` + `X` cut three chars; `4` + `X` cut four chars and so on\
 \
