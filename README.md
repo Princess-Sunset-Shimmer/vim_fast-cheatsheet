@@ -56,7 +56,7 @@
 `O` insert below current line\
 `Shift` + `O` insert above current line
 \
-`:read !SHELL_COMMAND` run shell command and insert with its output into current file\
+`:read !SHELL_COMMAND` run shell command and insert its output into current file\
 example: you can use this trick to read long output from a command without save it
 ```c
         vim
