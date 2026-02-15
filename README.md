@@ -175,4 +175,4 @@ user specific config file: `~/.vimrc`
         :set hlsearch           /* hilight search */
 ```
 - - - -
-Licence: [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
+Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
