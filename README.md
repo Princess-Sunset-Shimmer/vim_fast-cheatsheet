@@ -70,6 +70,14 @@ general text editing gramma:
         [COUNT] oprator [text_object or cursor_control]
         :[range] command [arguments]
 ```
+- - - -
+frequently used operator:\
+`X` cut
+`D` delete
+`D` + `D` delete line
+`C` change (delete + insert)
+
+- - - -
 `C` + `I` + `W` change inner word\
 \
 `X` cut current char or selected chars\
