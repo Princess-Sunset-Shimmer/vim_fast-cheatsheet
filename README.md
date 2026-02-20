@@ -157,7 +157,7 @@ example: you can use this trick to read long output from a command without save 
 `V` open file in new vertical split\
 `t` open file in new tab\
 \
-`Ctrl` + `W` then `H`/`J`/`K`/`L` nevigate between file splits\
+`Ctrl` + `W` then `H` `J` `K` `L` nevigate between file splits\
 `G` + `T` go to next tab\
 `G` then `Shift` + `T` go to previous tab
 - - - -
