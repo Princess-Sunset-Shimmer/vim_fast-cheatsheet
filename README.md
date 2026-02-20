@@ -145,7 +145,12 @@ example: you can use this trick to read long output from a command without save 
 `S` toggle sort by name, size, time and exten\
 \
 `-` go previous directory\
-`J` and `K` navigate up and down; `Enter` to open file\
+`J` and `K` navigate up and down\
+\
+`Enter` open file\
+`O` open file in new hrizontal split\
+`V` open file in new vertical split\
+`t` open file in new tab\
 \
 `Shift` + `R` rename a file\
 `Shift` + `D` delete a file\
