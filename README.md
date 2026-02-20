@@ -67,16 +67,19 @@ example: you can use this trick to read long output from a command without save 
 ```
 general text editing gramma:
 ```
-        [COUNT] oprator [text_object or cursor_control]
+        [COUNT] operation [text_object or cursor_control]
         :[range] command [arguments]
 ```
 - - - -
-frequently used operator:\
-`X` cut
-`D` delete
-`D` + `D` delete line
-`C` change (delete + insert)
-
+frequently used operation:\
+`X` cut\
+`D` delete\
+`D` + `D` delete line\
+`C` change (delete + insert)\
+`G` + `U` lower the case\
+`G` then `Shift` + `U` upper the case\
+`<` indent left\
+`>` indent right
 - - - -
 `C` + `I` + `W` change inner word\
 \
