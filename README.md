@@ -147,15 +147,19 @@ example: you can use this trick to read long output from a command without save 
 `-` go previous directory\
 `J` and `K` navigate up and down\
 \
+`Shift` + `R` rename a file\
+`Shift` + `D` delete a file\
+`D` create a directory\
+`Shift` + `%` create a file\
+\
 `Enter` open file\
 `O` open file in new hrizontal split\
 `V` open file in new vertical split\
 `t` open file in new tab\
 \
-`Shift` + `R` rename a file\
-`Shift` + `D` delete a file\
-`D` create a directory\
-`Shift` + `%` create a file
+`Ctrl` + `W` then `H`/`J`/`K`/`L` nevigate between file splits\
+`G` + `T` go to next tab\
+`G` then `Shift` + `T` go to previous tab
 - - - -
 # vim configuration
 system wide config file: `/etc/vimrc`\
