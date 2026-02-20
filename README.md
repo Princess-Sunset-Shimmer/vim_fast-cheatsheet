@@ -33,12 +33,13 @@
 `B` backword\
 \
 `Shift` + `$` tail of line\
-`0` mane of line
+`0` mane of line\
+\
+`Shift` + `G`  goto tail of file\
+`G` + `G` goto mane of file
 ```c
         :255                   /* goto line 255 of file */
 ```
-`Shift` + `G`  goto tail of file\
-`G` + `G` goto mane of file
 ## folding:
 `Z` + `F` manually create a fold from a selection\
 `Z` + `A` fold or open automatically\
@@ -66,7 +67,7 @@ example: you can use this trick to read long output from a command without save 
 ```
 general text editing gramma:
 ```
-        [COUNT] oprator [text_object or motion]
+        [COUNT] oprator [text_object or cursor_control]
         :[range] command [arguments]
 ```
 `C` + `I` + `W` change inner word\
