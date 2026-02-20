@@ -36,7 +36,9 @@
 `0` mane of line\
 \
 `Shift` + `G`  goto tail of file\
-`G` + `G` goto mane of file
+`G` + `G` goto mane of file\
+\
+`F` + `ANY_KEY` move cursor to next position that match key you type
 ```c
         :255                   /* goto line 255 of file */
 ```
@@ -109,6 +111,7 @@ frequently used text object:\
  `A` + `{`\
  `A` + `<`
 - - - -
+exsamples:
 `C` + `I` + `W` change inner word\
 \
 `X` cut current char or selected chars\
