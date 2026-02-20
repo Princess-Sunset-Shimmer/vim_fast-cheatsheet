@@ -111,7 +111,7 @@ frequently used text object:\
  `A` + `{`\
  `A` + `<`
 - - - -
-exsamples:
+exsamples:\
 `C` + `I` + `W` change inner word\
 \
 `X` cut current char or selected chars\
