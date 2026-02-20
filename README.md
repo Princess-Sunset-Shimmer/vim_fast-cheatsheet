@@ -92,7 +92,7 @@ frequently used text object:\
  `I` + `P`\
  `I` + `'`\
  `I` + `"`\
- `I` + `\``\
+ `I` + ```\
  `I` + `(`\
  `I` + `[`\
  `I` + `{`\
@@ -103,7 +103,7 @@ frequently used text object:\
  `A` + `P`\
  `A` + `'`\
  `A` + `"`\
- `A` + `\``\
+ `A` + ```\
  `A` + `(`\
  `A` + `[`\
  `A` + `{`\
