@@ -79,7 +79,15 @@ frequently used operation:\
 `G` + `U` lower the case\
 `G` then `Shift` + `U` upper the case\
 `<` indent left\
-`>` indent right
+`>` indent right\
+`=` indent auto\
+`Y` yank (copy)\
+`Y` yank line\
+`P` paste
+- - - -
+- - - -
+frequently used text object:\
+
 - - - -
 `C` + `I` + `W` change inner word\
 \
