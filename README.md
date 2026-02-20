@@ -54,7 +54,9 @@
 `Shift` + `A` insert at end\
 \
 `O` insert below current line\
-`Shift` + `O` insert above current line
+`Shift` + `O` insert above current line\
+\
+`C` + `I` + `W` change word
 ```c
         :read !SHELL_COMMAND   /* run shell command and insert its output into current file */
 ```
