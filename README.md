@@ -54,9 +54,7 @@
 `Shift` + `A` insert at end\
 \
 `O` insert below current line\
-`Shift` + `O` insert above current line\
-\
-`C` + `I` + `W` change word
+`Shift` + `O` insert above current line
 ```c
         :read !SHELL_COMMAND   /* run shell command and insert its output into current file */
 ```
@@ -66,6 +64,13 @@ example: you can use this trick to read long output from a command without save 
         :read !SHELL_COMMAND --help
         :q!
 ```
+general text editing gramma:
+```
+        [COUNT] oprator [text_object or motion]
+        :[range] command [arguments]
+```
+`C` + `I` + `W` change inner word\
+\
 `X` cut current char or selected chars\
 `3` + `X` cut three chars; `4` + `X` cut four chars and so on\
 \
