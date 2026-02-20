@@ -25,6 +25,7 @@
 `/` search mode\
 `:` command mode\
 `V` visual mode\
+`Ctrl` + `V` vidual block mode\
 `Shift` + `R` replace mode
 ## cursor control:
 `H` `J` `K` `L` are ⬅️ ⬆️ ⬇️ ➡️ that every vim user knows\
