@@ -87,7 +87,27 @@ frequently used operation:\
 - - - -
 - - - -
 frequently used text object:\
-
+ `I` + `W`\
+ `I` + `S`\
+ `I` + `P`\
+ `I` + `'`\
+ `I` + `"`\
+ `I` + ```\
+ `I` + `(`\
+ `I` + `[`\
+ `I` + `{`\
+ `I` + `<`\
+ \
+ `A` + `W`\
+ `A` + `S`\
+ `A` + `P`\
+ `A` + `'`\
+ `A` + `"`\
+ `A` + ```\
+ `A` + `(`\
+ `A` + `[`\
+ `A` + `{`\
+ `A` + `<`
 - - - -
 `C` + `I` + `W` change inner word\
 \
