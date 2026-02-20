@@ -79,6 +79,7 @@ frequently used operation:\
 `D` delete\
 `D` + `D` delete line\
 `C` change (delete + insert)\
+`R` replace single char\
 `G` + `U` lower the case\
 `G` then `Shift` + `U` upper the case\
 `<` indent left\
